@@ -1,0 +1,64 @@
+.comment {
+  display: flex;
+  gap: 1rem;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.commentBody {
+  flex: 1;
+}
+.commentHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.userName {
+  font-weight: 600;
+}
+.timestamp {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+.commentText {
+  margin-top: 0.25rem;
+  color: var(--color-text-secondary);
+}
+.commentActions {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+.actionButton {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.actionButton:hover {
+  color: var(--color-text-primary);
+}
+.repliesToggle {
+  font-size: 0.875rem;
+  color: var(--color-accent);
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.repliesContainer {
+  padding-left: 1.75rem;
+  margin-top: 1rem;
+  border-left: 2px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
